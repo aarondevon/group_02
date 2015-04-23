@@ -4,10 +4,10 @@ function randomNumber(min, max) {
 
 
 var Market = {
-	apples: randomNumber(50,999)/100,
-	oranges: randomNumber(50,999)/100,
-	bananas: randomNumber(50,999)/100,
-	pears: randomNumber(50,999)/100
+	apples: randomNumber(25,999)/100,
+	oranges: randomNumber(25,999)/100,
+	bananas: randomNumber(25,999)/100,
+	pears: randomNumber(25,999)/100
 };
 var Person = {
 	apples: [],
@@ -17,7 +17,7 @@ var Person = {
 	budget: 100
 };
 function priceChange(price){
-	price += randomNumber(-50,50)/100;
+	price += randomNumber(-25,25)/100;
 	if (price > 9.99){
 		price = 9.99;
 	}else if (price < .50){
