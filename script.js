@@ -14,7 +14,7 @@ var Person = {
 	oranges: [],
 	bananas: [],
 	pears: [],
-	budget: 100
+	budget: 50
 };
 function priceChange(price){
 	price += randomNumber(-25,25)/100;
